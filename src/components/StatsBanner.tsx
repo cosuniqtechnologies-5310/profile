@@ -3,9 +3,9 @@ import React from 'react';
 export const StatsBanner: React.FC = () => {
   const stats = [
     { value: "7.5+", label: "Years Experience", desc: "Design to core systems" },
-    { value: "20+", label: "Live Client Sites", desc: "UK, AU, NL, NO & India" },
-    { value: "3+", label: "Products Built", desc: "From scratch to production" },
-    { value: "4", label: "Core Polyglot Stacks", desc: "TS, Go, Python & PHP" },
+    { value: "100+", label: "Websites", desc: "UK, AU, NL, NO & India" },
+    { value: "10", label: "Apps", desc: "From scratch to production" },
+    { value: "10+", label: "Polyglot Stacks", desc: "TS, Go, Python, PHP & more" },
   ];
 
   return (

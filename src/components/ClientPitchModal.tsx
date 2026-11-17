@@ -19,11 +19,12 @@ export const ClientPitchModal: React.FC<ClientPitchModalProps> = ({ isOpen, onCl
 I’m Gowtham Selvaraj, Freelance Senior Polyglot Software Engineer & Solutions Architect with over 7.5 years of experience spanning Graphic Design to Core Systems Engineering (Cosuniq Technologies).
 
 What I bring to your project:
-• Multidisciplinary Mastery: TypeScript/JavaScript, Go, Python, PHP, and SQL.
+• 10+ Polyglot Stacks: TypeScript/JavaScript, Go, Python, PHP, Java, SQL, and Cloud Microservices.
+• 100+ Websites & 10 Production Apps: Enterprise platforms, IoT systems, custom CRM, and ERP tools.
 • Frontend Performance: Next.js, Remix, and React apps built for Core Web Vitals and clean UX.
 • Scalable Microservices & APIs: High-concurrency services in Go, modular backends in NestJS, and enterprise APIs in Laravel/PHP.
 • Cloud & Systems: AWS, GCP, Docker, and Linux server management.
-• 20+ Live Global Client Deployments:
+• Verified Client Deployments:
   - Cosuniq Technologies: https://cosuniq.in
   - Smart Solution IoT: https://smartsolutioniot.com
   - Lean365 AI Platform: https://lean365.ai
