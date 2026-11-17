@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cosuniq-orange: #FF5E00;
+  --cosuniq-dark: #120A05;
+  --cosuniq-card: #1C120B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FF5E00;
+  color: #0f172a;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cosuniq Brand Orange Background */
+.bg-cosuniq-orange {
+  background: linear-gradient(135deg, #FF6400 0%, #FF5A00 50%, #F04F00 100%);
+}
+
+.bg-cosuniq-deep {
+  background: linear-gradient(145deg, #F95700 0%, #E84D00 100%);
+}
+
+/* Translucent dark card over orange */
+.cosuniq-glass-card {
+  background: rgba(18, 10, 5, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cosuniq-glass-card:hover {
+  background: rgba(18, 10, 5, 0.45);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* Dark contrast card in orange fold */
+.cosuniq-dark-card {
+  background: #140d08;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+.cosuniq-dark-card:hover {
+  border-color: #FF5E00;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Ambient glow with warm orange tint */
+.orange-glow {
+  background: radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.22) 0%, rgba(255, 94, 0, 0) 70%);
+}
+
+/* Print Styles for customer PDF exports */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 10.5pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  section, header, footer, div {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    border-color: #e2e8f0 !important;
+    box-shadow: none !important;
+  }
+
+  h1, h2, h3, h4, strong, b {
+    color: #0f172a !important;
+  }
+
+  p, span, li {
+    color: #334155 !important;
+  }
+
+  .page-break-inside-avoid {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
