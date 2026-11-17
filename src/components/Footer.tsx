@@ -6,8 +6,8 @@ import { Linkedin, Github, Palette } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="py-14 bg-slate-950 text-slate-400 no-print border-t border-white/10">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+    <footer className="py-10 sm:py-14 bg-slate-950 text-slate-400 no-print border-t border-white/10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
         <div>
           <div className="flex items-center gap-2.5">
             <div className="w-7 h-7 rounded-full bg-[#FF5E00] text-white flex items-center justify-center font-extrabold text-xs shadow-xs">
@@ -31,9 +31,9 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="text-xs text-slate-400 text-center sm:text-right">
+        <div className="text-xs text-slate-400 text-left sm:text-right">
           <p>Available for high-impact technical engagements, product builds & architecture leadership.</p>
-          <div className="flex items-center justify-center sm:justify-end gap-4 mt-3">
+          <div className="flex items-center justify-start sm:justify-end gap-3 sm:gap-4 mt-3">
             <a
               href={PROFILE_DATA.githubUrl}
               target="_blank"
